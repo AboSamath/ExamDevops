@@ -34,3 +34,7 @@ In the Actions fields we can see all the job done by the server :
 
 ![image](https://github.com/AboSamath/ExamDevops/assets/41702342/a9e6235f-867a-490f-8f58-3ba7c90dad8a)
 
+we can find below the process : 
+
+![image](https://github.com/AboSamath/ExamDevops/assets/41702342/d7f6ce9b-a3a4-41d2-9730-c6efef555b92)
+
