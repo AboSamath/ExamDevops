@@ -1,6 +1,8 @@
 import os
 import subprocess
 
+# First we define the function that will allow us to create the aorborescence of the project
+
 def create_project_structure():
     project_structure = [
         "data/cleaned",
@@ -33,15 +35,18 @@ def create_project_structure():
     with open("src/utils.py", "w") as f:
         pass
 
+# Creation of the git repository
 def initialize_git_repo():
     subprocess.run(["git", "init"])
 
+#do a firs commit after adding the files
 def add_and_commit_files():
     subprocess.run(["git", "add", "."])
     subprocess.run(["git", "commit", "-m", "Initial commit"])
 
+# Create the remote repository
 def create_remote_repo():
-    # Replace 'your_username', 'your_token', and 'your_repo_name' with actual values
+    
     subprocess.run([
         "curl",
         "-u",
@@ -51,10 +56,12 @@ def create_remote_repo():
         '{"Samath_":"ExamDevops"}'
     ])
 
+# Make a push to update the change done in local
 def push_to_remote():
     subprocess.run(["git", "remote", "add", "origin", "https://github.com/AboSamath/ExamDevops.git"])
     subprocess.run(["git", "push", "-u", "origin", "master"])
 
+# Function main where we call al the previous function 
 if __name__ == "__main__":
     create_project_structure()
     initialize_git_repo()
