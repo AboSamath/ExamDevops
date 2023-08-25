@@ -20,6 +20,10 @@ Despite this principal files previously quoted, we have to create a repository w
 
 In our case all this precedure will be done automatically by excuting a python file where we have all the function that will allow us to create the repository. This file named "Principal.py" we can found it in the directory "src".
 
+2 - Automation server
 
+To simplify our job we creat an automation server which allow us to excute some task. This has been done by creating the file main.yml located in the directory .github/workflows.
+
+![image](https://github.com/AboSamath/ExamDevops/assets/41702342/cda035d1-6154-4ba3-803c-c45ed9602407)
 
 
