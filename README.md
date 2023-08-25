@@ -26,4 +26,11 @@ To simplify our job we creat an automation server which allow us to excute some 
 
 ![image](https://github.com/AboSamath/ExamDevops/assets/41702342/cda035d1-6154-4ba3-803c-c45ed9602407)
 
+In the Actions fields we can see all the job done by the server : 
+
+![image](https://github.com/AboSamath/ExamDevops/assets/41702342/70a995d8-d74a-45fb-ba58-9f75ade5acd1)
+
+![image](https://github.com/AboSamath/ExamDevops/assets/41702342/1347c9f7-bf7e-47bd-9413-0361209873ef)
+
+![image](https://github.com/AboSamath/ExamDevops/assets/41702342/a9e6235f-867a-490f-8f58-3ba7c90dad8a)
 
