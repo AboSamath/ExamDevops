@@ -1,18 +1,25 @@
-Devops examen Master 1 IA DIT
+## Devops examen Master 1 IA DIT
 
-Abdou Samath YATTE
+## Abdou Samath YATTE
 
-Introduction
-Ce programme va nous permettre de créer une arborescence de fichier et de dossier en faisant une suite d'au moins 5 commits. Elle comportera aussi un système de tickettage bien défini qui montrara les tâches effectuées. Elle sera écrit en python.
+### Introduction
 
-1 - Creation de notre depôt Github
+This program will enable us to create a file and folder tree by making a sequence of at least 5 commits. It will also include a well-defined ticketing system that shows the tasks performed. It will be written in Python.
 
-Après la créations nous avons les différents fichiers suivants :
+1 - Creation of our Github repository
 
-un fichier LICENCE qui contient les clauses d'utilisation du projet
-un fichier .gitignore qui permet d'ignorer des fichier et faire en sorte que certains fichiers/repertoires ne fassent pas partie de l'historique
-un fichier README (celui dans lequel nous redigeons) qui nous permettra de dcumenter le programme
+After creation we should have the following files:
 
-2 - Clônage du dépôt GUT créer
+- LICENCE file containing the clauses governing use of the project
+- .gitignore file that lets you ignore files and ensure that certain files/directories are not included in the history
+- README file (the one in which we write) which will allow us to document the programme
+
+Despite this principal files previously quoted, we have to create a repository with the following tree structure : 
+
+![image](https://github.com/AboSamath/ExamDevops/assets/41702342/e22cfff4-4c36-465d-92af-d45d2a258ca6)
+
+In our case all this precedure will be done automatically by excuting a python file where we have all the function that will allow us to create the repository. This file named "Principal.py" we can found it in the directory "src".
+
+
 
 
