@@ -45,14 +45,14 @@ def create_remote_repo():
     subprocess.run([
         "curl",
         "-u",
-        "your_username:your_token",
-        "https://api.github.com/user/repos",
+        "AboSamath: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",
+        "https://github.com/AboSamath/ExamDevops.git",
         "-d",
-        '{"name":"your_repo_name"}'
+        '{"Samath_":"ExamDevops"}'
     ])
 
 def push_to_remote():
-    subprocess.run(["git", "remote", "add", "origin", "https://github.com/your_username/your_repo_name.git"])
+    subprocess.run(["git", "remote", "add", "origin", "https://github.com/AboSamath/ExamDevops.git"])
     subprocess.run(["git", "push", "-u", "origin", "master"])
 
 if __name__ == "__main__":
